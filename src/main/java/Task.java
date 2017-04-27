@@ -1,5 +1,5 @@
-import java.util.ArrayList;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Task {
@@ -30,7 +30,7 @@ public class Task {
   }
 
   public static List<Task> all() {
-    return instances;
+   return instances;
   }
 
   public static void clear() {
@@ -41,7 +41,7 @@ public class Task {
     return mId;
   }
 
- public static Task find(int id) {
+  public static Task find(int id) {
   return instances.get(id - 1);
-}
+  }
 }
